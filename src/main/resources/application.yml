@@ -1,0 +1,15 @@
+server:
+  8080
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+
+    #    url: jdbc:mysql://rm-2ze3poeezkby53627ro.mysql.rds.aliyuncs.com:3306/dmy?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Hongkong
+    #    username: honghuiqiang
+    #    password: 1ASDinnocent
+    #
+    url: jdbc:mysql://localhost:3306/follow_up?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Hongkong
+    username: root
+    password: root
